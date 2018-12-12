@@ -8,4 +8,6 @@ public interface UserRepository extends JpaRepository<User, Long>{
 	
 	@SuppressWarnings("unchecked")
 	User save(User user);
+	
+//	List<User> findAll();
 }
